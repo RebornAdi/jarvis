@@ -25,10 +25,6 @@ while True:
                 functions.del_files(text)
             elif("send this message to" in text):
                 functions.whatsapp(text)
-            elif(text=="open vi talk" or text=="open v-top"):
-                username_text=str(input("Enter your username : "))
-                password_text=str(input("Input your password : "))
-                functions.open_vtop(username_text,password_text)
             elif("search on" in text):
                 functions.search(text)
             elif("turn off" in text or "restart" in text or "logout" in text):
